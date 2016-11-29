@@ -4,7 +4,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Window;
+/**
+ * autour: 乔鹏宏
+ * date: 2016/11/29 21:14 
+ * update: 2016/11/29
+ */
 
+//Fragment与Activity的生命周期
 public class MainActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.test.startmode.com.bwie.test.demo.ChuanValueActivity">
+    <EditText
+        android:id="@+id/et"
+        android:textSize="22sp"
+        android:textColorHint="#f0f"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入您要输入的值"/>
+    <Button
+    android:id="@+id/bt"
+    android:textSize="25sp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/et"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="点击Activity传值到Fragment"/>
+    <Button
+        android:id="@+id/bt2"
+        android:textSize="16sp"
+        android:layout_below="@id/bt"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击通过Application传值到RigthFragment，再通过rf传到lf"/>
+    <FrameLayout
+        android:id="@+id/contents"
+        android:layout_below="@id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+</RelativeLayout>

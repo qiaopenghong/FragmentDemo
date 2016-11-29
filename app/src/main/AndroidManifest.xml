@@ -3,22 +3,24 @@
     package="com.bwie.test.startmode">
 
     <application
+        android:name=".com.bwie.test.demo.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/a6"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        >
-        <activity android:name=".MainActivity"
-            android:launchMode="singleInstance"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
             android:label="@string/activity_a"
-            >
+            android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".com.bwie.test.demo.ChuanValueActivity" />
+        <activity android:name=".com.bwie.test.demo.ThreeActivity" />
     </application>
 
 </manifest>
