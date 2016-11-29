@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">StartMode</string>
+    <string name="activity_a">StartMode</string>
+    <string name="activity_b">StartMode</string>
+    <string name="activity_c">StartMode</string>
+    <string name="activity_d">StartMode</string>
+</resources>
